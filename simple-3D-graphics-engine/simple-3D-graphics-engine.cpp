@@ -364,7 +364,7 @@ private:
 
 public:
     bool OnUserCreate() override {
-        meshObject.loadFromObjectFile("objects_src/axis.obj");
+        meshObject.loadFromObjectFile("objects_src/ship.obj");
 
         matProj = matrixMakeProjection(90.0f, (float)ScreenHeight() / (float)ScreenWidth(), 0.1f, 1000.0f);
 
